@@ -1,0 +1,25 @@
+alguns comandos GIT (https://comandosgit.github.io/)
+
+sha1
+criar ssh no dash - ssh-keygen -t ed25519 -C + email do github
+entrar na pasta do ssh do computador
+cat id_ed25519.pub
+acessar o agente para autenticar no github
+eval $(ssh-agent -s)
+colocar o ssh ssh-add id_ed25519
+
+configurando o git dentro da pasta que voce deseja
+
+git config --global user.email "email"
+git config --global user.name "nome"
+git add * (adiciona todos os arquivos que tem na pasta)
+git add (nome arquivo) apenas o arquivo
+git commit -m "nome commit" - faz o git envelopar tudo com o commit
+git status (mostra o status do arquivo)
+echo > nome arquivo (criar arquivo)
+mv nome do arquivo /pasta destino (move o arquivo para uma pasta)
+para adicionar pastas no github, pegar o url para git no site.
+git remot -v origin (url aqui)
+git push origin master (enviar pastas para o github)
+git pull origin master (baixar repositorio alterado para arrumar)
+git clone (URL do git hub) baixa um repositorio do git hub
