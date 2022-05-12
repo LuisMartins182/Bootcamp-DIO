@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Self</title>
+
+    <style>
+        .conteiner{
+            max-width: 300px;
+            display: flex;
+            border: 2px solid black;
+            margin-bottom: 20px;
+        }
+
+        .direction{
+            flex-direction: column;
+        }
+
+        .acenter{
+            align-items: center;
+        }
+
+        .item{
+            background-color: yellow;
+            text-align: center;
+            font-size: 24px;
+            margin: 5px;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+    </style>
+</head>
+<body>
+    <H1>Row</H1>
+    <section class="conteiner acenter">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Lorem Ipsum</div>
+        <div class="item auto">Item 4</div>
+    </section>
+   
+    <section class="conteiner">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item stretch">Lorem Ipsum create text</div>
+        <div class="item end">Item 4</div>
+    </section>
+    
+    <section class="conteiner ">
+        <div class="item start">AAA</div>
+        <div class="item center">123</div>
+        <div class="item stretch">texto aleatorio para ver diferença</div>
+        <div class="item end">BBB</div>
+    </section>
+
+    <H1>Column</H1>
+    <section class="conteiner acenter direction">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Lorem Ipsum</div>
+        <div class="item auto">Item 4</div>
+    </section>
+   
+    <section class="conteiner direction">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item stretch">Lorem Ipsum create text</div>
+        <div class="item end">Item 4</div>
+    </section>
+    
+    <section class="conteiner direction">
+        <div class="item start">AAA</div>
+        <div class="item center">123</div>
+        <div class="item stretch">texto aleatorio para ver diferença</div>
+        <div class="item end">BBB</div>
+    </section>
+</body>
+</html>

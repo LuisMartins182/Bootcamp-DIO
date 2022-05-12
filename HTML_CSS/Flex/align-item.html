@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamento - Align Item</title>
+    <style>
+        .conteiner{
+            max-width: 250px;
+            border: 2px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: blue;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+
+        .center{
+            align-items: center;
+        }
+        .strectch{
+            align-items: stretch
+        }
+        .start{
+            align-items: flex-start;
+        }
+        .end{
+            align-items: flex-end;
+        }
+        .base-line{
+            align-items: baseline;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .central{
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+        }
+        .central .item{
+            flex: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Align Item</h1>
+    <p>Center</p>
+    <section class="conteiner center">
+        <div class="item">Item 1</div>
+        <div class="item">Fundamentos align item</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>Strectch</p>
+    <section class="conteiner strectch">
+        <div class="item">Item 1</div>
+        <div class="item">Fundamentos align item</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>Flex Start</p>
+    <section class="conteiner start">
+        <div class="item">Item 1</div>
+        <div class="item">Fundamentos align item</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>Flex End</p>
+    <section class="conteiner end">
+        <div class="item">Item 1</div>
+        <div class="item">Fundamentos align item</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>Base Line</p>
+    <section class="conteiner base-line">
+        <div class="item"><br>Item 1</div>
+        <div class="item">Fundamentos align item</div>
+        <div class="item">Item 3</div>
+    </section>
+    <h1>Align Item Column</h1>
+    <p>Flex Start</p>
+    <section class="conteiner start column">
+        <div class="item">Item 1</div>
+        <div class="item">Fundamentos align item</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>Flex End</p>
+    <section class="conteiner end column">
+            <div class="item">Item 1</div>
+            <div class="item">Fundamentos align item</div>
+            <div class="item">Item 3</div>
+    </section>
+    <p>Center</p>
+    <section class="conteiner center column">
+        <div class="item">Item 1</div>
+        <div class="item">Fundamentos align item</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>Base Line</p>
+    <section class="conteiner base-line column">
+        <div class="item"><br>Item 1</div>
+        <div class="item">Fundamentos align item</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>Alinhamento Central</p>
+    <section class="conteiner">
+        <div class="item central">
+            O Gerador de Texto Lorem Ipsum pode ser utilizado para você que está desenvolvendo seu projeto e precisa de texto aleatório para preencher os espaços e fazer testes. Assim, dá para testar o layout e a formatação antes de utilizar com conteúdo real.
+        </div>
+    </section>
+</body>
+</html>

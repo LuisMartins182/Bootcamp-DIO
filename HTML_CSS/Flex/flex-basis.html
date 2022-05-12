@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex Basis</title>
+    <style>
+        .counteiner{
+            max-width: 500px;
+            border: 2px solid black;
+            display: flex;
+        }
+        .item{
+            background-color: red;
+            color: white;
+            text-align: center;
+            margin: 5px;
+        }
+        .bauto{
+            flex-basis: auto;
+        }
+        .fg-1{
+            flex-grow: 1;
+        }
+        .fg-2{
+            flex-grow: 2;
+        }
+        .b-0{
+            flex-basis: 0;
+        }
+        .b-100{
+            flex-basis: 100px;
+        }
+    </style>
+</head>
+<body>
+    <p>Flex Basis Auto</p>
+    <div class="counteiner">
+        <div class="item bauto fg-1">A</div>
+        <div class="item bauto fg-1">BBB</div>
+        <div class="item bauto fg-1">C</div>
+        <div class="item bauto fg-2">DEF</div>
+    </div>
+    <p>Flex Basis 0</p>
+    <div class="counteiner">
+        <div class="item b-0 fg-1">A</div>
+        <div class="item b-0 fg-1">BBB</div>
+        <div class="item b-0 fg-1">C</div>
+        <div class="item b-0 fg-1">DEF</div>
+    </div>
+    <p>Flex Basis 100</p>
+    <div class="counteiner">
+        <div class="item b-100 fg-1">AAA</div>
+        <div class="item b-100 fg-1">BBB</div>
+        <div class="item b-100 fg-1">CCC</div>
+        <div class="item b-100 fg-1">DEF</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,158 @@
+portas DNS
+
+20:FTP
+22:SSH
+25:SMTP
+53:DNS
+80:HTTP
+443?HTTPS
+
+Exercício Final da AULA roteadores
+
+-> O gmail costuma usar portas próprias, que não as padrões de SMTP e POP3. tente descobrir.
+pop.gmail.com Requer SSL: Sim Porta: 995/Imap.gmail.com Requer SSL: Sim Porta: 993/smtp.gmail.com Requer TLS: Sim Requer autenticação: Sim Porta para TLS/STARTTLS: 587
+
+-> O programador que trabalha com a internet costuma usar bancos de dados, como o MySQL, e, claro, servidor web, como o Apache. Quais as portas utilizadas por estes sistemas.
+MySQL - porta 3306
+Servidor Web - porta 80 e 443 
+Apache - porta 443
+
+Conexoes moveis
+
+->1G(analógica):10Kbps
+->2G(digital)(GSM(Global System for Mobile Communication)):97Kbps
+->GPRS(General Packet Radio Service)/2,5G: 32-80Kbps - dados+voz
+->EDGE(Enhanced Data Rates for GSM Evolution)/2,75G: 128-236Kbps
+->3G(7Mbps), 4G(22.1Mbps), 5G(10Gbps).
+
+Wi-Fi
+
+-> IEEE 802.11:2,4GHz, 2Mbps
+-> IEEE 802.11a:5GHz, 54Mbps
+-> IEEE 802.11b:2,4GHz, 11Mbps (diminuição de interfereência)
+-> IEEE 802.11g:2,4GHz, 54Mbps
+-> IEEE 802.11n:2,4GHz/5GHz, 150-600Mbps
+
+SEGURANÇA
+
+->WEP: chaves de 64bits e de 128bits
+->WPA: chave trocada periodicamente
+->WPA2:(AES) (802.11i) +segurança/+processamento
+
+Bluetooth
+
+Conexão ponto a ponto
+
+Classe/ Potenência max/ Alcance
+
+->1/ 100mW/ 100m
+->2/ 2,5mW/ 10m
+->3/ 1mW/ 1m
+
+Versão/ Taxa de transmissão
+
+->1.2/ 1Mbps
+->2.0+EDR/ 3Mbps
+->3.0/ 24Mbps
+->4.0/ 25Mbps
+->5.0 / 50Mbps
+
+STACKS
+
+->Pilçhas de tecnologia
+->Conjunto de softwares necessários e suficientes para executar um aplicativo/programa
+->Linguagem de programação
+->Ambientes e ferramentas de interação com o app/sw
+->Capacidade e limitação de performance
+->Pontos fortes e fracos do app/sw
+
+Importância
+
+->Os líderes de projetos precisam das informações das equipes de desenvolvimento
+->Os desenvolvedores precisam saber as limitações e capacidades das ferramentas e ambientes que tem disponiveis
+->Sistemas, bancos de dados, linguagem de programação, protocolos de comunicação
+->Estratégias de negocios
+->Maturidade
+->Contratações, planos de mitigações de riscos, aumento da capacidade, uso dos dados
+
+Front-end
+->"Parte da frente"
+->Site, software, aplicativo, web service
+->Interface, UI, UX
+->Lógica de programação, HTML, CSS, jQuery/JS/AJAX, PHP, Bootstrap/ outros frameworks
+
+Back-end
+->"Parte de trás"
+->Servidores, banco de dados
+->"meio de campo" entre interface e bancos de dados, regras de negócios, validações
+-> MySQL, Oracle, protocolos de comunicação, PHP, Java, node.js
+
+Full stack
+-> Profissional que sabe trabalhar em todas as camadas das tecnologias de desenvolvimento/execução de um app/sw
+
+Principais linguagens
+
+->HTML
+->CSS
+->JavaScript (jQuery,AJAX, diversas libs)
+->PHP
+->.NET
+->ASP
+->Java
+->Ruby(on Rails)
+->Python
+->Perl
+->C/C++/C#
+
+Termos comuns
+
+->404 - erro pagina não exites
+->Algoritmo - seguencia de passos para fazer uma tarefa
+->ALT - texto alternativo (mouse)
+->API - funcionalidade a mais no site
+->Aplicações - programa
+->Back-end
+->Bibliotecal/dll - conjunto de ferramentas disponiveis para fazer  recursos
+->Bootstrap - Framework javascript
+->Breakpoints - pontos chaves de uma tela ou pontos de paradas em um debug
+->Browser/navegador
+->Bug 
+->Cache
+->Código
+->Controle de versão
+->Cookies
+->Debug - tentar descobrir problema do código
+->Deploy - pacote para ser publicado
+->Design adaptativo/responsivo
+->DNS
+->Documentação - externa quanto interna
+->Domínio
+->DPI
+->Editor de texto
+->Estrutura de dados
+->Favicon - figura do site
+->Fontes
+->Framework - caixa de ferramentas para desenvolver software
+->Front-end
+->FTP
+->Full-stack
+->Github/SVN/CV - controladores de versões
+->HTTP(S)
+->IP
+->Linguagem
+->Meta tags - codificação do site
+->Método ágil - tecnicas de desenvolvimento de software
+->Mobile
+->MVC - arquitetura de software
+->MVP - minimo produto viavel para teste ou cliente
+->MySQL - linguagem banco de dados
+->Pixel
+->Resolução
+->Servidor
+->Sistema Operacional
+->Solução - conjunto de ferramentas software
+->SSL
+->UI
+->UX
+->Versão
+->WYSIWYG - pequenos editores de texto.
