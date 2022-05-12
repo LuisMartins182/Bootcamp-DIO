@@ -2,7 +2,7 @@
 
 - Lógica Programação :heavy_check_mark:
 - Git/GitHub :heavy_check_mark:
-- HTML/CSS 
+- HTML/CSS ✔️
 - Javascript
 - ReactJS
 - Bando de dados
